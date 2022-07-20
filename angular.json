@@ -31,6 +31,19 @@
             "tsConfig": "projects/ds-comp/tsconfig.spec.json",
             "karmaConfig": "projects/ds-comp/karma.conf.js"
           }
+        },
+        "storybook": {
+          "builder": "@storybook/angular:start-storybook",
+          "options": {
+            "browserTarget": "ds-comp:build",
+            "port": 6006
+          }
+        },
+        "build-storybook": {
+          "builder": "@storybook/angular:build-storybook",
+          "options": {
+            "browserTarget": "ds-comp:build"
+          }
         }
       }
     },

@@ -21,6 +21,7 @@
     "moduleResolution": "node",
     "importHelpers": true,
     "target": "es2017",
+    "typeRoots": ["node_modules/@types"],
     "module": "es2020",
     "lib": ["es2020", "dom"]
   },
@@ -30,5 +31,6 @@
     "strictInputAccessModifiers": true,
     "strictTemplates": true
   },
-  "include": ["projects/ds-comp/**/*.ts", "projects/ds-test/src/**/*.ts"]
+  "include": ["projects/ds-comp/**/*.ts", "projects/ds-test/src/**/*.ts","stories/**/*.stories.ts"],
+  "exclude": ["node_modules"]
 }

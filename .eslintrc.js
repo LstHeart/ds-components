@@ -146,5 +146,6 @@ module.exports = {
         parser: 'angular'
       }]
     }
-  }]
+  }],
+  extends: ['plugin:storybook/recommended']
 };
