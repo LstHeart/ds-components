@@ -35,14 +35,14 @@
         "storybook": {
           "builder": "@storybook/angular:start-storybook",
           "options": {
-            "browserTarget": "ds-comp:build",
+            "browserTarget": "ds-comp:build:development",
             "port": 6006
           }
         },
         "build-storybook": {
           "builder": "@storybook/angular:build-storybook",
           "options": {
-            "browserTarget": "ds-comp:build"
+            "browserTarget": "ds-comp:production"
           }
         }
       }

@@ -19,6 +19,7 @@ section h2 {
 
 section p {
   margin: 1em 0;
+  @apply bg-blue-600
 }
 
 section a {

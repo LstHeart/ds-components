@@ -12,6 +12,7 @@ import { User } from './User';
     ></storybook-header>
     <section>
       <h2>Pages in Storybook</h2>
+      <div>hello css</div>
       <p>
         We recommend building UIs with a
         <a href="https://componentdriven.org" target="_blank" rel="noopener noreferrer">
